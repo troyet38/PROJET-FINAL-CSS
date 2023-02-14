@@ -524,7 +524,14 @@ footer{
 
 @media screen and (max-width:576px) {
 
-
+    h1{
+        font-size: 3rem;
+        
+    }  
+     
+    h3{
+        font-size: 22px;
+    }
     .Hautpage{
         display: flex;
         flex-direction: column;
@@ -546,10 +553,7 @@ footer{
         padding: 0px 0px 10px 0px ;
     
     }
-    h1{
-        font-size: 3rem;
-        
-    }
+    
 
     .hone{
         padding: 10px 50px 0px 50px;
@@ -634,9 +638,7 @@ footer{
         text-align: center;
     }
 
-    h3{
-        font-size: 22px;
-    }
+
     .partie5{
         text-align: center;
         margin: 0px 00px 0px 00px;
