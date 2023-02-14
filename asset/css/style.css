@@ -42,6 +42,13 @@ h2{
 h3{
     font-size: 30px;
 }
+h4{
+    font-size: 25px;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+}
 
 
 .Hautpage {
@@ -275,7 +282,8 @@ h3{
     padding: 10px 40px 10px 40px;
     font-size: 15px;
     position: relative;
-    top: 50px;
+    top: 20px;
+    font-family:"Roboto Bold";
 }
 
 .btn3:hover{
@@ -292,8 +300,8 @@ h3{
     padding: 10px 40px 10px 40px;
     font-size: 15px;
     position: relative;
-    top: 85px;
-    
+    top: 60px;
+    font-family:"Roboto Bold";
     
 }
 
@@ -311,10 +319,206 @@ h3{
     padding: 10px 40px 10px 40px;
     font-size: 15px;
     position: relative;
-    top: 80px;
+    top: 60px;
+    font-family:"Roboto Bold";
 }
 
 .btn5:hover{
     background-color: rgb(221, 88, 110);
     color: white;
 }
+
+.parag4{
+    font-size: 20px;
+    
+}
+
+
+
+.titre2::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 20px;
+    background-color: cyan;
+    margin: 0 auto;
+    margin-top: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.titre3{
+    margin: -65px 0px 50px 0px;
+}
+
+.titre4::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 20px;
+    background-color: yellow;
+    margin: 0 auto;
+    margin-top: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.titre5::after{
+    content: "";
+    display: block;
+    width: 70%;
+    height: 20px;
+    background-color: purple;
+    margin: 0 auto;
+    margin-top: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.partie7{
+    text-align: center;
+    margin: 70px 0px 100px 0px;
+}
+
+.partie8{
+    display: flex;
+    justify-content: center;
+}
+
+.directeur{
+    border: 1px solid cyan;
+    width: 20vw;
+    text-align: center;
+    position: relative;
+    margin: 0px 80px 0px 0px;
+}
+
+.sales{
+    border: 1px solid cyan;
+    width: 20vw;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    margin: 0px 0px 0px 0px;
+}
+
+.marketing{
+    border: 1px solid cyan;
+    width: 20vw;
+    text-align: center;
+    position: relative;
+    margin: 0px 0px 0px 80px;
+}
+
+.photo2{
+    display: flex;
+   
+    position: absolute;
+    bottom: 370px;
+    left: 150px;
+}
+
+
+.parag5{
+    margin: -30px 0px 40px 0px;
+}
+
+.parag6{
+    font-size: 15px;
+    margin: 10px 30px 10px 30px;
+}
+
+.partie9{
+    text-align: center;
+    margin: 70px 0px 0px 0px;
+}
+
+.pouvoirs{
+    
+    
+    display: inline-block;
+    margin: 0px 100px 50px 0px;
+    /* padding: 0px 100px 0px 0px ; */
+    height: 200px;
+    width: 60vw;
+    
+    
+}
+
+.lignecyan{
+    border-bottom:2px solid cyan;
+    width: 70vw auto;
+    margin: 50px 0px 50px 0px;
+}
+.activer{
+    display: inline-block;
+    margin: 0px 0px 100px 0px;
+    /* padding: 0px 100px 0px 0px ; */
+    height: 200px;
+    width: 60vw;
+}
+
+.photo3{
+    margin: 30px 50px -20px 200px;
+    display: inline;
+    height: 200px;
+    
+}
+
+.parag7{
+    margin: -20px 0px 40px 0px;
+}
+
+.btn6{
+    background-color: white;
+    color:rgb(221, 88, 110);
+    border-radius: 5px;
+    border: 1px solid rgb(221, 88, 110);
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    
+    font-size: 15px;
+
+}
+.btn6:hover{
+    background-color: rgb(221, 88, 110);
+    color: white;
+    
+}
+
+.partie11{
+    display: inline-block;
+    width: 20vw;
+   
+    text-align: start;
+   
+}
+
+.logo2{
+    display: inline-block;
+    width: 7vw;
+    border-right: 2px solid black;
+    margin: 20px 10px 0px 10px;
+    padding: 0px 20px 0px 0px;
+    
+
+}
+
+
+.partie12{
+    list-style:none;
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    align-items: center; 
+    font-family:"Roboto thin";
+    
+}
+
+.liste2{
+    list-style:none;
+    border-left: 1px solid black;
+
+} 
+
